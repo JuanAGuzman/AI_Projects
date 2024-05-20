@@ -1,0 +1,2093 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>612f558c81fe4bb3baa95b41d28eeff0</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="proyecto-alquiler-de-ciclas---etapa-2"
+class="cell markdown">
+<h1>Proyecto: Alquiler de ciclas - Etapa 2</h1>
+</section>
+<div class="cell markdown">
+<p>El agua es el recutso natural mas necesitado por los humanos, esto
+debido a su uso en consumo y tareas cotidianas. Es por esto que es
+necesario monitorear la calidad de los cuerpos de agua, y evaluar las
+variaciones en las características fisicoquímicas de estos, con el fin
+de evitar el deterioro y preservar la calidad de estos ecosistemas para
+garantizar la disponibilidad de agua dulce para la población humana. Con
+esto en mente, para este proyecto se busca implementar dos modelos de
+aprendizaje supervisado con el objetivo de identificar la potabilidad
+del agua en torno a sus propiedades fisicoquímicas.</p>
+</div>
+<section id="objetivos" class="cell markdown">
+<h2>Objetivos</h2>
+</section>
+<div class="cell markdown">
+<p>A partir de los datos se busca construir dos modelo de clasificacion
+usando arboles de decision y k-vecinos mas cercanos que logren
+identificar la potabilidad del agua. Para esto se necesita cumplir con
+lo siguiente:</p>
+<ul>
+<li>Obtencion y exploracion de los datos.</li>
+<li>Preprocesamiento y preparacion de los datos.</li>
+<li>Definir y entrenar un GridSearch de un modelo de arboles de decision
+para obtener los mejores hiperparametros.</li>
+<li>Definir y entrenar un modelo de k-vecinos más cercanos tomando en
+cuenta la curva de validacion para considerar el mejor <span
+class="math inline"><em>k</em></span>.</li>
+<li>Evaluar ambos modelos y comparar sus rendimientos entre si para
+determinar cual se desenvolvio mejor.</li>
+<li>Determinar cuáles son los factores que más inciden en la
+contaminación de los cuerpos de agua con base en los datos.</li>
+</ul>
+</div>
+<section id="entendimiento-de-los-datos" class="cell markdown">
+<h2>Entendimiento de los datos</h2>
+</section>
+<div class="cell markdown">
+<p>Los datos son una modificacion de los que se encuentrarn en <a
+href="https://www.kaggle.com/datasets/adityakadiwal/water-potability"
+class="uri">https://www.kaggle.com/datasets/adityakadiwal/water-potability</a>,
+los cuales contienen las siguientes variables:</p>
+</div>
+<div class="cell markdown">
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Tipo</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>pH</td>
+<td>numérico</td>
+<td>El PH es un parámetro importante para evaluar el equilibrio
+ácido-base del agua. También es el indicador del estado ácido o alcalino
+del agua. La Organización MUmdial de la Salud (OMS) ha recomendado un
+límite máximo permisible de pH de 6,5 a 8,5. Los rangos de la
+investigación actual fueron de 6,52 a 6,83, que están en el rango de las
+normas de la OMS.</td>
+</tr>
+<tr class="even">
+<td>Dureza</td>
+<td>numérico</td>
+<td>La dureza está causada principalmente por las sales de calcio y
+magnesio. Estas sales se disuelven en los depósitos geológicos por los
+que pasa el agua. La dureza se definió originalmente como la capacidad
+del agua para precipitar el jabón causado por el Calcio y el
+Magnesio</td>
+</tr>
+<tr class="odd">
+<td>Sólidos</td>
+<td>numérico</td>
+<td>(Sólidos totales disueltos - TDS). El agua tiene la capacidad de
+disolver una amplia gama de minerales inorgánicos y algunos orgánicos o
+sales como el potasio, el calcio, el sodio, los bicarbonatos, los
+cloruros, el magnesio, los sulfatos, etc. Estos minerales producen un
+sabor no deseado y un color diluido en la apariencia del agua. Este es
+el parámetro importante para el uso del agua. El agua con un alto valor
+de TDS indica que el agua está muy mineralizada. El límite deseable de
+TDS es de 500 mg/l y el límite máximo es de 1000 mg/l, que se prescribe
+para el consumo.</td>
+</tr>
+<tr class="even">
+<td>Cloraminas</td>
+<td>numérico</td>
+<td>El cloro y la cloramina son los principales desinfectantes
+utilizados en los sistemas públicos de agua. Las cloraminas se forman
+normalmente cuando se añade amoníaco al cloro para tratar el agua
+potable. Los niveles de cloro de hasta 4 miligramos por litro (mg/L o 4
+partes por millón (ppm)) se consideran seguros en el agua potable.</td>
+</tr>
+<tr class="odd">
+<td>Sulfatos</td>
+<td>numérico</td>
+<td>Los sulfatos son sustancias naturales que se encuentran en los
+minerales, el suelo y las rocas. Están presentes en el aire, las aguas
+subterráneas, las plantas y los alimentos. El principal uso comercial de
+los sulfatos es la industria química. La concentración de sulfato en el
+agua de mar es de unos 2.700 miligramos por litro (mg/L). En la mayoría
+de los suministros de agua dulce oscila entre 3 y 30 mg/L, aunque en
+algunos lugares geográficos se encuentran concentraciones mucho más
+altas (1000 mg/L).</td>
+</tr>
+<tr class="even">
+<td>Conductividad</td>
+<td>numérico</td>
+<td>El agua pura no es un buen conductor de la corriente eléctrica, más
+bien es un buen aislante. El aumento de la concentración de iones
+aumenta la conductividad eléctrica del agua. En general, la cantidad de
+sólidos disueltos en el agua determina la conductividad eléctrica. La
+conductividad eléctrica (CE) mide en realidad el proceso iónico de una
+solución que le permite transmitir la corriente. Según las normas de la
+OMS, el valor de la CE no debe superar los 400 μS/cm</td>
+</tr>
+<tr class="odd">
+<td>Carbono_organico</td>
+<td>numérico</td>
+<td>El carbono orgánico total (COT) en las aguas procede de la materia
+orgánica natural en descomposición, así como de fuentes sintéticas. El
+COT es una medida de la cantidad total de carbono en compuestos
+orgánicos en el agua pura.</td>
+</tr>
+<tr class="even">
+<td>Trihalometanos</td>
+<td>numérico</td>
+<td>Los Trihalometanos (THM) son sustancias químicas que pueden
+encontrarse en el agua tratada con cloro. La concentración de THM en el
+agua potable varía según el nivel de materia orgánica en el agua, la
+cantidad de cloro necesaria para tratar el agua y la temperatura del
+agua que se está tratando. Los niveles de THM de hasta 80 ppm se
+consideran seguros en el agua potable.</td>
+</tr>
+<tr class="odd">
+<td>Turbidez</td>
+<td>numérico</td>
+<td>La turbidez del agua depende de la cantidad de materia sólida
+presente en estado de suspensión. Es una medida de las propiedades de
+emisión de luz del agua y la prueba se utiliza para indicar la calidad
+de los vertidos con respecto a la materia coloidal. El valor medio de
+turbidez obtenido para el Campus Wondo Genet (0,98 NTU) es inferior al
+valor recomendado por la OMS de 5,00 NTU.</td>
+</tr>
+<tr class="even">
+<td>Potabilidad</td>
+<td>categorica</td>
+<td>Indica si el agua es segura para el consumo, donde SI significa apta
+y NO significa no apta.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell markdown">
+<p>A partir de esto vamos notando que los modelos de clasificacion
+tomaran como etiqueta la variable <em>Potabilidad</em> y se entrenaran
+entorno a las demas variables.</p>
+</div>
+<section id="librerias" class="cell markdown">
+<h3>Librerias</h3>
+</section>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeClassifier, plot_tree</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neighbors <span class="im">import</span> KNeighborsClassifier</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split, KFold, GridSearchCV, validation_curve</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> classification_report, ConfusionMatrixDisplay</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">#Indicamos a pandas que las visualizaciones se contruiran en Plotly y estableciendo seaborn por defecto</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>pd.options.plotting.backend <span class="op">=</span> <span class="st">&quot;plotly&quot;</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Definimos k=10 para la validacion cruzada</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>kfold <span class="op">=</span> KFold(n_splits<span class="op">=</span><span class="dv">10</span>, shuffle<span class="op">=</span><span class="va">True</span>, random_state<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div>
+</div>
+<section id="obtencion-y-exploracion-de-los-datos"
+class="cell markdown">
+<h3>Obtencion y exploracion de los datos</h3>
+</section>
+<div class="cell markdown">
+<p>Los datos se encuentran en el excel
+<strong>Datos_Etapa-2.xlsx</strong>, por lo tanto usando la funcion
+<em>read_excel</em> de pandas importaremos los datos en un
+DataFrame:</p>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>ruta <span class="op">=</span> <span class="st">&quot;Datos_Etapa-2.xlsx&quot;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>data_raw <span class="op">=</span> pd.read_excel(ruta, na_values<span class="op">=</span>[<span class="st">&#39;?&#39;</span>])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>data_raw</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>pH</th>
+      <th>Dureza</th>
+      <th>Sólidos</th>
+      <th>Cloraminas</th>
+      <th>Sulfatos</th>
+      <th>Conductividad</th>
+      <th>Carbono_orgánico</th>
+      <th>Trihalometanos</th>
+      <th>Turbidez</th>
+      <th>Potabilidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>204.89</td>
+      <td>20791.32</td>
+      <td>7.30</td>
+      <td>368.52</td>
+      <td>564.31</td>
+      <td>10.38</td>
+      <td>86.99</td>
+      <td>2.96</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>3.72</td>
+      <td>129.42</td>
+      <td>18630.06</td>
+      <td>6.64</td>
+      <td>NaN</td>
+      <td>592.89</td>
+      <td>15.18</td>
+      <td>56.33</td>
+      <td>4.50</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>8.10</td>
+      <td>224.24</td>
+      <td>19909.54</td>
+      <td>9.28</td>
+      <td>NaN</td>
+      <td>418.61</td>
+      <td>16.87</td>
+      <td>66.42</td>
+      <td>3.06</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8.32</td>
+      <td>214.37</td>
+      <td>22018.42</td>
+      <td>8.06</td>
+      <td>356.89</td>
+      <td>363.27</td>
+      <td>18.44</td>
+      <td>100.34</td>
+      <td>4.63</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>9.09</td>
+      <td>181.10</td>
+      <td>17978.99</td>
+      <td>6.55</td>
+      <td>310.14</td>
+      <td>398.41</td>
+      <td>11.56</td>
+      <td>32.00</td>
+      <td>4.08</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>3271</th>
+      <td>4.67</td>
+      <td>193.68</td>
+      <td>47580.99</td>
+      <td>7.17</td>
+      <td>359.95</td>
+      <td>526.42</td>
+      <td>13.89</td>
+      <td>66.69</td>
+      <td>4.44</td>
+      <td>SI</td>
+    </tr>
+    <tr>
+      <th>3272</th>
+      <td>7.81</td>
+      <td>193.55</td>
+      <td>17329.80</td>
+      <td>8.06</td>
+      <td>NaN</td>
+      <td>392.45</td>
+      <td>19.90</td>
+      <td>NaN</td>
+      <td>2.80</td>
+      <td>SI</td>
+    </tr>
+    <tr>
+      <th>3273</th>
+      <td>9.42</td>
+      <td>175.76</td>
+      <td>33155.58</td>
+      <td>7.35</td>
+      <td>NaN</td>
+      <td>432.04</td>
+      <td>11.04</td>
+      <td>69.85</td>
+      <td>3.30</td>
+      <td>SI</td>
+    </tr>
+    <tr>
+      <th>3274</th>
+      <td>5.13</td>
+      <td>230.60</td>
+      <td>11983.87</td>
+      <td>6.30</td>
+      <td>NaN</td>
+      <td>402.88</td>
+      <td>11.17</td>
+      <td>77.49</td>
+      <td>4.71</td>
+      <td>SI</td>
+    </tr>
+    <tr>
+      <th>3275</th>
+      <td>7.87</td>
+      <td>195.10</td>
+      <td>17404.18</td>
+      <td>7.51</td>
+      <td>NaN</td>
+      <td>327.46</td>
+      <td>16.14</td>
+      <td>78.70</td>
+      <td>2.31</td>
+      <td>SI</td>
+    </tr>
+  </tbody>
+</table>
+<p>3276 rows × 10 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>data_raw.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>pH</th>
+      <th>Dureza</th>
+      <th>Sólidos</th>
+      <th>Cloraminas</th>
+      <th>Sulfatos</th>
+      <th>Conductividad</th>
+      <th>Carbono_orgánico</th>
+      <th>Trihalometanos</th>
+      <th>Turbidez</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>2785.000000</td>
+      <td>3276.000000</td>
+      <td>3276.000000</td>
+      <td>3276.000000</td>
+      <td>2495.000000</td>
+      <td>3276.000000</td>
+      <td>3276.000000</td>
+      <td>3114.000000</td>
+      <td>3276.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>7.080804</td>
+      <td>196.369481</td>
+      <td>22014.092415</td>
+      <td>7.122241</td>
+      <td>333.775784</td>
+      <td>426.205171</td>
+      <td>14.284921</td>
+      <td>66.396281</td>
+      <td>3.966731</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>1.594369</td>
+      <td>32.879680</td>
+      <td>8768.570852</td>
+      <td>1.583143</td>
+      <td>41.416864</td>
+      <td>80.824123</td>
+      <td>3.308232</td>
+      <td>16.174983</td>
+      <td>0.780354</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.000000</td>
+      <td>47.430000</td>
+      <td>320.940000</td>
+      <td>0.350000</td>
+      <td>129.000000</td>
+      <td>181.480000</td>
+      <td>2.200000</td>
+      <td>0.740000</td>
+      <td>1.450000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>6.090000</td>
+      <td>176.847500</td>
+      <td>15666.687500</td>
+      <td>6.130000</td>
+      <td>307.695000</td>
+      <td>365.735000</td>
+      <td>12.070000</td>
+      <td>55.847500</td>
+      <td>3.440000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>7.040000</td>
+      <td>196.965000</td>
+      <td>20927.830000</td>
+      <td>7.130000</td>
+      <td>333.070000</td>
+      <td>421.885000</td>
+      <td>14.220000</td>
+      <td>66.620000</td>
+      <td>3.955000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>8.060000</td>
+      <td>216.670000</td>
+      <td>27332.760000</td>
+      <td>8.112500</td>
+      <td>359.950000</td>
+      <td>481.790000</td>
+      <td>16.560000</td>
+      <td>77.337500</td>
+      <td>4.500000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>14.000000</td>
+      <td>323.120000</td>
+      <td>61227.200000</td>
+      <td>13.130000</td>
+      <td>481.030000</td>
+      <td>753.340000</td>
+      <td>28.300000</td>
+      <td>124.000000</td>
+      <td>6.740000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Notamos que contamos con un DataFrame con dimensiones (3276x10),
+donde se encuentran valores Nan en multiples variables. La variable
+objetivo presenta la siguiente distribucion:</p>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>data_raw[<span class="st">&#39;Potabilidad&#39;</span>].value_counts().plot.bar()</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;config&quot;</span><span class="fu">:{</span><span class="dt">&quot;plotlyServerURL&quot;</span><span class="fu">:</span><span class="st">&quot;https://plot.ly&quot;</span><span class="fu">},</span><span class="dt">&quot;data&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;alignmentgroup&quot;</span><span class="fu">:</span><span class="st">&quot;True&quot;</span><span class="fu">,</span><span class="dt">&quot;hovertemplate&quot;</span><span class="fu">:</span><span class="st">&quot;variable=count&lt;br&gt;Potabilidad=%{x}&lt;br&gt;value=%{y}&lt;extra&gt;&lt;/extra&gt;&quot;</span><span class="fu">,</span><span class="dt">&quot;legendgroup&quot;</span><span class="fu">:</span><span class="st">&quot;count&quot;</span><span class="fu">,</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#636efa&quot;</span><span class="fu">,</span><span class="dt">&quot;pattern&quot;</span><span class="fu">:{</span><span class="dt">&quot;shape&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;name&quot;</span><span class="fu">:</span><span class="st">&quot;count&quot;</span><span class="fu">,</span><span class="dt">&quot;offsetgroup&quot;</span><span class="fu">:</span><span class="st">&quot;count&quot;</span><span class="fu">,</span><span class="dt">&quot;orientation&quot;</span><span class="fu">:</span><span class="st">&quot;v&quot;</span><span class="fu">,</span><span class="dt">&quot;showlegend&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;textposition&quot;</span><span class="fu">:</span><span class="st">&quot;auto&quot;</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;bar&quot;</span><span class="fu">,</span><span class="dt">&quot;x&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="st">&quot;NO&quot;</span><span class="ot">,</span><span class="st">&quot;SI&quot;</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;xaxis&quot;</span><span class="fu">:</span><span class="st">&quot;x&quot;</span><span class="fu">,</span><span class="dt">&quot;y&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="dv">1998</span><span class="ot">,</span><span class="dv">1278</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;yaxis&quot;</span><span class="fu">:</span><span class="st">&quot;y&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;layout&quot;</span><span class="fu">:{</span><span class="dt">&quot;barmode&quot;</span><span class="fu">:</span><span class="st">&quot;relative&quot;</span><span class="fu">,</span><span class="dt">&quot;legend&quot;</span><span class="fu">:{</span><span class="dt">&quot;title&quot;</span><span class="fu">:{</span><span class="dt">&quot;text&quot;</span><span class="fu">:</span><span class="st">&quot;variable&quot;</span><span class="fu">},</span><span class="dt">&quot;tracegroupgap&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">},</span><span class="dt">&quot;margin&quot;</span><span class="fu">:{</span><span class="dt">&quot;t&quot;</span><span class="fu">:</span><span class="dv">60</span><span class="fu">},</span><span class="dt">&quot;template&quot;</span><span class="fu">:{</span><span class="dt">&quot;data&quot;</span><span class="fu">:{</span><span class="dt">&quot;bar&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;error_x&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">},</span><span class="dt">&quot;error_y&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">},</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;width&quot;</span><span class="fu">:</span><span class="fl">0.5</span><span class="fu">},</span><span class="dt">&quot;pattern&quot;</span><span class="fu">:{</span><span class="dt">&quot;fillmode&quot;</span><span class="fu">:</span><span class="st">&quot;overlay&quot;</span><span class="fu">,</span><span class="dt">&quot;size&quot;</span><span class="fu">:</span><span class="dv">10</span><span class="fu">,</span><span class="dt">&quot;solidity&quot;</span><span class="fu">:</span><span class="fl">0.2</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;bar&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;barpolar&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;width&quot;</span><span class="fu">:</span><span class="fl">0.5</span><span class="fu">},</span><span class="dt">&quot;pattern&quot;</span><span class="fu">:{</span><span class="dt">&quot;fillmode&quot;</span><span class="fu">:</span><span class="st">&quot;overlay&quot;</span><span class="fu">,</span><span class="dt">&quot;size&quot;</span><span class="fu">:</span><span class="dv">10</span><span class="fu">,</span><span class="dt">&quot;solidity&quot;</span><span class="fu">:</span><span class="fl">0.2</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;barpolar&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;carpet&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;aaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;endlinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;minorgridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;startlinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">},</span><span class="dt">&quot;baxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;endlinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;minorgridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;startlinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;carpet&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;choropleth&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;choropleth&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;contour&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;contour&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;contourcarpet&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;contourcarpet&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;heatmap&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;heatmap&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;heatmapgl&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;heatmapgl&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;histogram&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;pattern&quot;</span><span class="fu">:{</span><span class="dt">&quot;fillmode&quot;</span><span class="fu">:</span><span class="st">&quot;overlay&quot;</span><span class="fu">,</span><span class="dt">&quot;size&quot;</span><span class="fu">:</span><span class="dv">10</span><span class="fu">,</span><span class="dt">&quot;solidity&quot;</span><span class="fu">:</span><span class="fl">0.2</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;histogram&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;histogram2d&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;histogram2d&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;histogram2dcontour&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;histogram2dcontour&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;mesh3d&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;mesh3d&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;parcoords&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;parcoords&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;pie&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;automargin&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;pie&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scatter&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;fillpattern&quot;</span><span class="fu">:{</span><span class="dt">&quot;fillmode&quot;</span><span class="fu">:</span><span class="st">&quot;overlay&quot;</span><span class="fu">,</span><span class="dt">&quot;size&quot;</span><span class="fu">:</span><span class="dv">10</span><span class="fu">,</span><span class="dt">&quot;solidity&quot;</span><span class="fu">:</span><span class="fl">0.2</span><span class="fu">},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scatter&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scatter3d&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scatter3d&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scattercarpet&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scattercarpet&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scattergeo&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scattergeo&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scattergl&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scattergl&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scattermapbox&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scattermapbox&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scatterpolar&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scatterpolar&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scatterpolargl&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scatterpolargl&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scatterternary&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scatterternary&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;surface&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;surface&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;table&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;cells&quot;</span><span class="fu">:{</span><span class="dt">&quot;fill&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#EBF0F8&quot;</span><span class="fu">},</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">}},</span><span class="dt">&quot;header&quot;</span><span class="fu">:{</span><span class="dt">&quot;fill&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#C8D4E3&quot;</span><span class="fu">},</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;table&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">},</span><span class="dt">&quot;layout&quot;</span><span class="fu">:{</span><span class="dt">&quot;annotationdefaults&quot;</span><span class="fu">:{</span><span class="dt">&quot;arrowcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">,</span><span class="dt">&quot;arrowhead&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;arrowwidth&quot;</span><span class="fu">:</span><span class="dv">1</span><span class="fu">},</span><span class="dt">&quot;autotypenumbers&quot;</span><span class="fu">:</span><span class="st">&quot;strict&quot;</span><span class="fu">,</span><span class="dt">&quot;coloraxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:{</span><span class="dt">&quot;diverging&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#8e0152&quot;</span><span class="ot">],[</span><span class="fl">0.1</span><span class="ot">,</span><span class="st">&quot;#c51b7d&quot;</span><span class="ot">],[</span><span class="fl">0.2</span><span class="ot">,</span><span class="st">&quot;#de77ae&quot;</span><span class="ot">],[</span><span class="fl">0.3</span><span class="ot">,</span><span class="st">&quot;#f1b6da&quot;</span><span class="ot">],[</span><span class="fl">0.4</span><span class="ot">,</span><span class="st">&quot;#fde0ef&quot;</span><span class="ot">],[</span><span class="fl">0.5</span><span class="ot">,</span><span class="st">&quot;#f7f7f7&quot;</span><span class="ot">],[</span><span class="fl">0.6</span><span class="ot">,</span><span class="st">&quot;#e6f5d0&quot;</span><span class="ot">],[</span><span class="fl">0.7</span><span class="ot">,</span><span class="st">&quot;#b8e186&quot;</span><span class="ot">],[</span><span class="fl">0.8</span><span class="ot">,</span><span class="st">&quot;#7fbc41&quot;</span><span class="ot">],[</span><span class="fl">0.9</span><span class="ot">,</span><span class="st">&quot;#4d9221&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#276419&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;sequential&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;sequentialminus&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">},</span><span class="dt">&quot;colorway&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="st">&quot;#636efa&quot;</span><span class="ot">,</span><span class="st">&quot;#EF553B&quot;</span><span class="ot">,</span><span class="st">&quot;#00cc96&quot;</span><span class="ot">,</span><span class="st">&quot;#ab63fa&quot;</span><span class="ot">,</span><span class="st">&quot;#FFA15A&quot;</span><span class="ot">,</span><span class="st">&quot;#19d3f3&quot;</span><span class="ot">,</span><span class="st">&quot;#FF6692&quot;</span><span class="ot">,</span><span class="st">&quot;#B6E880&quot;</span><span class="ot">,</span><span class="st">&quot;#FF97FF&quot;</span><span class="ot">,</span><span class="st">&quot;#FECB52&quot;</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;font&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">},</span><span class="dt">&quot;geo&quot;</span><span class="fu">:{</span><span class="dt">&quot;bgcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;lakecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;landcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;showlakes&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;showland&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;subunitcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">},</span><span class="dt">&quot;hoverlabel&quot;</span><span class="fu">:{</span><span class="dt">&quot;align&quot;</span><span class="fu">:</span><span class="st">&quot;left&quot;</span><span class="fu">},</span><span class="dt">&quot;hovermode&quot;</span><span class="fu">:</span><span class="st">&quot;closest&quot;</span><span class="fu">,</span><span class="dt">&quot;mapbox&quot;</span><span class="fu">:{</span><span class="dt">&quot;style&quot;</span><span class="fu">:</span><span class="st">&quot;light&quot;</span><span class="fu">},</span><span class="dt">&quot;paper_bgcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;plot_bgcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;polar&quot;</span><span class="fu">:{</span><span class="dt">&quot;angularaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;bgcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;radialaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;scene&quot;</span><span class="fu">:{</span><span class="dt">&quot;xaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;backgroundcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;gridwidth&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;showbackground&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">,</span><span class="dt">&quot;zerolinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">},</span><span class="dt">&quot;yaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;backgroundcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;gridwidth&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;showbackground&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">,</span><span class="dt">&quot;zerolinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">},</span><span class="dt">&quot;zaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;backgroundcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;gridwidth&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;showbackground&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">,</span><span class="dt">&quot;zerolinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">}},</span><span class="dt">&quot;shapedefaults&quot;</span><span class="fu">:{</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">}},</span><span class="dt">&quot;ternary&quot;</span><span class="fu">:{</span><span class="dt">&quot;aaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;baxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;bgcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;caxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;title&quot;</span><span class="fu">:{</span><span class="dt">&quot;x&quot;</span><span class="fu">:</span><span class="fl">5.0e-2</span><span class="fu">},</span><span class="dt">&quot;xaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;automargin&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">,</span><span class="dt">&quot;title&quot;</span><span class="fu">:{</span><span class="dt">&quot;standoff&quot;</span><span class="fu">:</span><span class="dv">15</span><span class="fu">},</span><span class="dt">&quot;zerolinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;zerolinewidth&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">},</span><span class="dt">&quot;yaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;automargin&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">,</span><span class="dt">&quot;title&quot;</span><span class="fu">:{</span><span class="dt">&quot;standoff&quot;</span><span class="fu">:</span><span class="dv">15</span><span class="fu">},</span><span class="dt">&quot;zerolinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;zerolinewidth&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">}}},</span><span class="dt">&quot;xaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;anchor&quot;</span><span class="fu">:</span><span class="st">&quot;y&quot;</span><span class="fu">,</span><span class="dt">&quot;domain&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="dv">0</span><span class="ot">,</span><span class="dv">1</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;title&quot;</span><span class="fu">:{</span><span class="dt">&quot;text&quot;</span><span class="fu">:</span><span class="st">&quot;Potabilidad&quot;</span><span class="fu">}},</span><span class="dt">&quot;yaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;anchor&quot;</span><span class="fu">:</span><span class="st">&quot;x&quot;</span><span class="fu">,</span><span class="dt">&quot;domain&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="dv">0</span><span class="ot">,</span><span class="dv">1</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;title&quot;</span><span class="fu">:{</span><span class="dt">&quot;text&quot;</span><span class="fu">:</span><span class="st">&quot;value&quot;</span><span class="fu">}}}}</span></span></code></pre></div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Es evidente que hay menor proporcion de valores SI en la potabilidad.
+Esto es importante de observar debido a que influye en el entrenamiento
+de los modelos, los modelos pueden aprenden que este valor presenta
+menor proporcionalidad en rasgos generales.</p>
+</div>
+<section id="preparacion-de-los-datos" class="cell markdown">
+<h3>Preparacion de los datos</h3>
+</section>
+<div class="cell markdown">
+<p>Empecemos el proceso de limpieza generando una copia de los datos
+sobre la que se hara las modificaciones:</p>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> data_raw.copy()</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>A partir de este nuevo dataframe podemos proceder a la observacion de
+los valores nulos y los duplicados:</p>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>data.isna().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>pH                  491
+Dureza                0
+Sólidos               0
+Cloraminas            0
+Sulfatos            781
+Conductividad         0
+Carbono_orgánico      0
+Trihalometanos      162
+Turbidez              0
+Potabilidad           0
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="61">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>data.duplicated().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="61">
+<pre><code>0</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>La mayor parte de los valores nulos estan en la variable Sulfatos,
+esto se entiende como una falta de informacion sobre la variable en el
+proceso de entreno, por lo tanto lo mejor es eliminar dichos valores
+nulos a pesar de su gran porcentaje frente a la muestra.</p>
+</div>
+<section id="preparacion-de-los-datos" class="cell markdown">
+<h3>Preparacion de los datos</h3>
+</section>
+<div class="cell markdown">
+<p>Usando las funciones de pandas podemos eliminar toda fila con algun
+valor nulo, esto reduce significativamente nuestra muestra:</p>
+</div>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> data.dropna(axis<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>pH</th>
+      <th>Dureza</th>
+      <th>Sólidos</th>
+      <th>Cloraminas</th>
+      <th>Sulfatos</th>
+      <th>Conductividad</th>
+      <th>Carbono_orgánico</th>
+      <th>Trihalometanos</th>
+      <th>Turbidez</th>
+      <th>Potabilidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td>8.32</td>
+      <td>214.37</td>
+      <td>22018.42</td>
+      <td>8.06</td>
+      <td>356.89</td>
+      <td>363.27</td>
+      <td>18.44</td>
+      <td>100.34</td>
+      <td>4.63</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>9.09</td>
+      <td>181.10</td>
+      <td>17978.99</td>
+      <td>6.55</td>
+      <td>310.14</td>
+      <td>398.41</td>
+      <td>11.56</td>
+      <td>32.00</td>
+      <td>4.08</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>5.58</td>
+      <td>188.31</td>
+      <td>28748.69</td>
+      <td>7.54</td>
+      <td>326.68</td>
+      <td>280.47</td>
+      <td>8.40</td>
+      <td>54.92</td>
+      <td>2.56</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10.22</td>
+      <td>248.07</td>
+      <td>28749.72</td>
+      <td>7.51</td>
+      <td>393.66</td>
+      <td>283.65</td>
+      <td>13.79</td>
+      <td>84.60</td>
+      <td>2.67</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8.64</td>
+      <td>203.36</td>
+      <td>13672.09</td>
+      <td>4.56</td>
+      <td>303.31</td>
+      <td>474.61</td>
+      <td>12.36</td>
+      <td>62.80</td>
+      <td>4.40</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>3267</th>
+      <td>8.99</td>
+      <td>215.05</td>
+      <td>15921.41</td>
+      <td>6.30</td>
+      <td>312.93</td>
+      <td>390.41</td>
+      <td>9.90</td>
+      <td>55.07</td>
+      <td>4.61</td>
+      <td>SI</td>
+    </tr>
+    <tr>
+      <th>3268</th>
+      <td>6.70</td>
+      <td>207.32</td>
+      <td>17246.92</td>
+      <td>7.71</td>
+      <td>304.51</td>
+      <td>329.27</td>
+      <td>16.22</td>
+      <td>28.88</td>
+      <td>3.44</td>
+      <td>SI</td>
+    </tr>
+    <tr>
+      <th>3269</th>
+      <td>11.49</td>
+      <td>94.81</td>
+      <td>37188.83</td>
+      <td>9.26</td>
+      <td>258.93</td>
+      <td>439.89</td>
+      <td>16.17</td>
+      <td>41.56</td>
+      <td>4.37</td>
+      <td>SI</td>
+    </tr>
+    <tr>
+      <th>3270</th>
+      <td>6.07</td>
+      <td>186.66</td>
+      <td>26138.78</td>
+      <td>7.75</td>
+      <td>345.70</td>
+      <td>415.89</td>
+      <td>12.07</td>
+      <td>60.42</td>
+      <td>3.67</td>
+      <td>SI</td>
+    </tr>
+    <tr>
+      <th>3271</th>
+      <td>4.67</td>
+      <td>193.68</td>
+      <td>47580.99</td>
+      <td>7.17</td>
+      <td>359.95</td>
+      <td>526.42</td>
+      <td>13.89</td>
+      <td>66.69</td>
+      <td>4.44</td>
+      <td>SI</td>
+    </tr>
+  </tbody>
+</table>
+<p>2011 rows × 10 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Observemos nuevamente las distribuciones de valores para la variable
+objetivo:</p>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Potabilidad&#39;</span>].value_counts().plot.bar()</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;config&quot;</span><span class="fu">:{</span><span class="dt">&quot;plotlyServerURL&quot;</span><span class="fu">:</span><span class="st">&quot;https://plot.ly&quot;</span><span class="fu">},</span><span class="dt">&quot;data&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;alignmentgroup&quot;</span><span class="fu">:</span><span class="st">&quot;True&quot;</span><span class="fu">,</span><span class="dt">&quot;hovertemplate&quot;</span><span class="fu">:</span><span class="st">&quot;variable=count&lt;br&gt;Potabilidad=%{x}&lt;br&gt;value=%{y}&lt;extra&gt;&lt;/extra&gt;&quot;</span><span class="fu">,</span><span class="dt">&quot;legendgroup&quot;</span><span class="fu">:</span><span class="st">&quot;count&quot;</span><span class="fu">,</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#636efa&quot;</span><span class="fu">,</span><span class="dt">&quot;pattern&quot;</span><span class="fu">:{</span><span class="dt">&quot;shape&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;name&quot;</span><span class="fu">:</span><span class="st">&quot;count&quot;</span><span class="fu">,</span><span class="dt">&quot;offsetgroup&quot;</span><span class="fu">:</span><span class="st">&quot;count&quot;</span><span class="fu">,</span><span class="dt">&quot;orientation&quot;</span><span class="fu">:</span><span class="st">&quot;v&quot;</span><span class="fu">,</span><span class="dt">&quot;showlegend&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;textposition&quot;</span><span class="fu">:</span><span class="st">&quot;auto&quot;</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;bar&quot;</span><span class="fu">,</span><span class="dt">&quot;x&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="st">&quot;NO&quot;</span><span class="ot">,</span><span class="st">&quot;SI&quot;</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;xaxis&quot;</span><span class="fu">:</span><span class="st">&quot;x&quot;</span><span class="fu">,</span><span class="dt">&quot;y&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="dv">1200</span><span class="ot">,</span><span class="dv">811</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;yaxis&quot;</span><span class="fu">:</span><span class="st">&quot;y&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;layout&quot;</span><span class="fu">:{</span><span class="dt">&quot;barmode&quot;</span><span class="fu">:</span><span class="st">&quot;relative&quot;</span><span class="fu">,</span><span class="dt">&quot;legend&quot;</span><span class="fu">:{</span><span class="dt">&quot;title&quot;</span><span class="fu">:{</span><span class="dt">&quot;text&quot;</span><span class="fu">:</span><span class="st">&quot;variable&quot;</span><span class="fu">},</span><span class="dt">&quot;tracegroupgap&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">},</span><span class="dt">&quot;margin&quot;</span><span class="fu">:{</span><span class="dt">&quot;t&quot;</span><span class="fu">:</span><span class="dv">60</span><span class="fu">},</span><span class="dt">&quot;template&quot;</span><span class="fu">:{</span><span class="dt">&quot;data&quot;</span><span class="fu">:{</span><span class="dt">&quot;bar&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;error_x&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">},</span><span class="dt">&quot;error_y&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">},</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;width&quot;</span><span class="fu">:</span><span class="fl">0.5</span><span class="fu">},</span><span class="dt">&quot;pattern&quot;</span><span class="fu">:{</span><span class="dt">&quot;fillmode&quot;</span><span class="fu">:</span><span class="st">&quot;overlay&quot;</span><span class="fu">,</span><span class="dt">&quot;size&quot;</span><span class="fu">:</span><span class="dv">10</span><span class="fu">,</span><span class="dt">&quot;solidity&quot;</span><span class="fu">:</span><span class="fl">0.2</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;bar&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;barpolar&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;width&quot;</span><span class="fu">:</span><span class="fl">0.5</span><span class="fu">},</span><span class="dt">&quot;pattern&quot;</span><span class="fu">:{</span><span class="dt">&quot;fillmode&quot;</span><span class="fu">:</span><span class="st">&quot;overlay&quot;</span><span class="fu">,</span><span class="dt">&quot;size&quot;</span><span class="fu">:</span><span class="dv">10</span><span class="fu">,</span><span class="dt">&quot;solidity&quot;</span><span class="fu">:</span><span class="fl">0.2</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;barpolar&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;carpet&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;aaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;endlinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;minorgridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;startlinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">},</span><span class="dt">&quot;baxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;endlinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;minorgridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;startlinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;carpet&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;choropleth&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;choropleth&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;contour&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;contour&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;contourcarpet&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;contourcarpet&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;heatmap&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;heatmap&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;heatmapgl&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;heatmapgl&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;histogram&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;pattern&quot;</span><span class="fu">:{</span><span class="dt">&quot;fillmode&quot;</span><span class="fu">:</span><span class="st">&quot;overlay&quot;</span><span class="fu">,</span><span class="dt">&quot;size&quot;</span><span class="fu">:</span><span class="dv">10</span><span class="fu">,</span><span class="dt">&quot;solidity&quot;</span><span class="fu">:</span><span class="fl">0.2</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;histogram&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;histogram2d&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;histogram2d&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;histogram2dcontour&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;histogram2dcontour&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;mesh3d&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;mesh3d&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;parcoords&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;parcoords&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;pie&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;automargin&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;pie&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scatter&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;fillpattern&quot;</span><span class="fu">:{</span><span class="dt">&quot;fillmode&quot;</span><span class="fu">:</span><span class="st">&quot;overlay&quot;</span><span class="fu">,</span><span class="dt">&quot;size&quot;</span><span class="fu">:</span><span class="dv">10</span><span class="fu">,</span><span class="dt">&quot;solidity&quot;</span><span class="fu">:</span><span class="fl">0.2</span><span class="fu">},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scatter&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scatter3d&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scatter3d&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scattercarpet&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scattercarpet&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scattergeo&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scattergeo&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scattergl&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scattergl&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scattermapbox&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scattermapbox&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scatterpolar&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scatterpolar&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scatterpolargl&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scatterpolargl&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;scatterternary&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;marker&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;scatterternary&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;surface&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;surface&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;table&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;cells&quot;</span><span class="fu">:{</span><span class="dt">&quot;fill&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#EBF0F8&quot;</span><span class="fu">},</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">}},</span><span class="dt">&quot;header&quot;</span><span class="fu">:{</span><span class="dt">&quot;fill&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#C8D4E3&quot;</span><span class="fu">},</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">}},</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;table&quot;</span><span class="fu">}</span><span class="ot">]</span><span class="fu">},</span><span class="dt">&quot;layout&quot;</span><span class="fu">:{</span><span class="dt">&quot;annotationdefaults&quot;</span><span class="fu">:{</span><span class="dt">&quot;arrowcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">,</span><span class="dt">&quot;arrowhead&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;arrowwidth&quot;</span><span class="fu">:</span><span class="dv">1</span><span class="fu">},</span><span class="dt">&quot;autotypenumbers&quot;</span><span class="fu">:</span><span class="st">&quot;strict&quot;</span><span class="fu">,</span><span class="dt">&quot;coloraxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;colorbar&quot;</span><span class="fu">:{</span><span class="dt">&quot;outlinewidth&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;colorscale&quot;</span><span class="fu">:{</span><span class="dt">&quot;diverging&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#8e0152&quot;</span><span class="ot">],[</span><span class="fl">0.1</span><span class="ot">,</span><span class="st">&quot;#c51b7d&quot;</span><span class="ot">],[</span><span class="fl">0.2</span><span class="ot">,</span><span class="st">&quot;#de77ae&quot;</span><span class="ot">],[</span><span class="fl">0.3</span><span class="ot">,</span><span class="st">&quot;#f1b6da&quot;</span><span class="ot">],[</span><span class="fl">0.4</span><span class="ot">,</span><span class="st">&quot;#fde0ef&quot;</span><span class="ot">],[</span><span class="fl">0.5</span><span class="ot">,</span><span class="st">&quot;#f7f7f7&quot;</span><span class="ot">],[</span><span class="fl">0.6</span><span class="ot">,</span><span class="st">&quot;#e6f5d0&quot;</span><span class="ot">],[</span><span class="fl">0.7</span><span class="ot">,</span><span class="st">&quot;#b8e186&quot;</span><span class="ot">],[</span><span class="fl">0.8</span><span class="ot">,</span><span class="st">&quot;#7fbc41&quot;</span><span class="ot">],[</span><span class="fl">0.9</span><span class="ot">,</span><span class="st">&quot;#4d9221&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#276419&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;sequential&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">,</span><span class="dt">&quot;sequentialminus&quot;</span><span class="fu">:</span><span class="ot">[[</span><span class="dv">0</span><span class="ot">,</span><span class="st">&quot;#0d0887&quot;</span><span class="ot">],[</span><span class="fl">0.1111111111111111</span><span class="ot">,</span><span class="st">&quot;#46039f&quot;</span><span class="ot">],[</span><span class="fl">0.2222222222222222</span><span class="ot">,</span><span class="st">&quot;#7201a8&quot;</span><span class="ot">],[</span><span class="fl">0.3333333333333333</span><span class="ot">,</span><span class="st">&quot;#9c179e&quot;</span><span class="ot">],[</span><span class="fl">0.4444444444444444</span><span class="ot">,</span><span class="st">&quot;#bd3786&quot;</span><span class="ot">],[</span><span class="fl">0.5555555555555556</span><span class="ot">,</span><span class="st">&quot;#d8576b&quot;</span><span class="ot">],[</span><span class="fl">0.6666666666666666</span><span class="ot">,</span><span class="st">&quot;#ed7953&quot;</span><span class="ot">],[</span><span class="fl">0.7777777777777778</span><span class="ot">,</span><span class="st">&quot;#fb9f3a&quot;</span><span class="ot">],[</span><span class="fl">0.8888888888888888</span><span class="ot">,</span><span class="st">&quot;#fdca26&quot;</span><span class="ot">],[</span><span class="dv">1</span><span class="ot">,</span><span class="st">&quot;#f0f921&quot;</span><span class="ot">]]</span><span class="fu">},</span><span class="dt">&quot;colorway&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="st">&quot;#636efa&quot;</span><span class="ot">,</span><span class="st">&quot;#EF553B&quot;</span><span class="ot">,</span><span class="st">&quot;#00cc96&quot;</span><span class="ot">,</span><span class="st">&quot;#ab63fa&quot;</span><span class="ot">,</span><span class="st">&quot;#FFA15A&quot;</span><span class="ot">,</span><span class="st">&quot;#19d3f3&quot;</span><span class="ot">,</span><span class="st">&quot;#FF6692&quot;</span><span class="ot">,</span><span class="st">&quot;#B6E880&quot;</span><span class="ot">,</span><span class="st">&quot;#FF97FF&quot;</span><span class="ot">,</span><span class="st">&quot;#FECB52&quot;</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;font&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">},</span><span class="dt">&quot;geo&quot;</span><span class="fu">:{</span><span class="dt">&quot;bgcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;lakecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;landcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;showlakes&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;showland&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;subunitcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">},</span><span class="dt">&quot;hoverlabel&quot;</span><span class="fu">:{</span><span class="dt">&quot;align&quot;</span><span class="fu">:</span><span class="st">&quot;left&quot;</span><span class="fu">},</span><span class="dt">&quot;hovermode&quot;</span><span class="fu">:</span><span class="st">&quot;closest&quot;</span><span class="fu">,</span><span class="dt">&quot;mapbox&quot;</span><span class="fu">:{</span><span class="dt">&quot;style&quot;</span><span class="fu">:</span><span class="st">&quot;light&quot;</span><span class="fu">},</span><span class="dt">&quot;paper_bgcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;plot_bgcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;polar&quot;</span><span class="fu">:{</span><span class="dt">&quot;angularaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;bgcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;radialaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;scene&quot;</span><span class="fu">:{</span><span class="dt">&quot;xaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;backgroundcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;gridwidth&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;showbackground&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">,</span><span class="dt">&quot;zerolinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">},</span><span class="dt">&quot;yaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;backgroundcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;gridwidth&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;showbackground&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">,</span><span class="dt">&quot;zerolinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">},</span><span class="dt">&quot;zaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;backgroundcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;gridwidth&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;showbackground&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">,</span><span class="dt">&quot;zerolinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">}},</span><span class="dt">&quot;shapedefaults&quot;</span><span class="fu">:{</span><span class="dt">&quot;line&quot;</span><span class="fu">:{</span><span class="dt">&quot;color&quot;</span><span class="fu">:</span><span class="st">&quot;#2a3f5f&quot;</span><span class="fu">}},</span><span class="dt">&quot;ternary&quot;</span><span class="fu">:{</span><span class="dt">&quot;aaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;baxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">},</span><span class="dt">&quot;bgcolor&quot;</span><span class="fu">:</span><span class="st">&quot;#E5ECF6&quot;</span><span class="fu">,</span><span class="dt">&quot;caxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">}},</span><span class="dt">&quot;title&quot;</span><span class="fu">:{</span><span class="dt">&quot;x&quot;</span><span class="fu">:</span><span class="fl">5.0e-2</span><span class="fu">},</span><span class="dt">&quot;xaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;automargin&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">,</span><span class="dt">&quot;title&quot;</span><span class="fu">:{</span><span class="dt">&quot;standoff&quot;</span><span class="fu">:</span><span class="dv">15</span><span class="fu">},</span><span class="dt">&quot;zerolinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;zerolinewidth&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">},</span><span class="dt">&quot;yaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;automargin&quot;</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span><span class="dt">&quot;gridcolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;linecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;ticks&quot;</span><span class="fu">:</span><span class="st">&quot;&quot;</span><span class="fu">,</span><span class="dt">&quot;title&quot;</span><span class="fu">:{</span><span class="dt">&quot;standoff&quot;</span><span class="fu">:</span><span class="dv">15</span><span class="fu">},</span><span class="dt">&quot;zerolinecolor&quot;</span><span class="fu">:</span><span class="st">&quot;white&quot;</span><span class="fu">,</span><span class="dt">&quot;zerolinewidth&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">}}},</span><span class="dt">&quot;xaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;anchor&quot;</span><span class="fu">:</span><span class="st">&quot;y&quot;</span><span class="fu">,</span><span class="dt">&quot;domain&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="dv">0</span><span class="ot">,</span><span class="dv">1</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;title&quot;</span><span class="fu">:{</span><span class="dt">&quot;text&quot;</span><span class="fu">:</span><span class="st">&quot;Potabilidad&quot;</span><span class="fu">}},</span><span class="dt">&quot;yaxis&quot;</span><span class="fu">:{</span><span class="dt">&quot;anchor&quot;</span><span class="fu">:</span><span class="st">&quot;x&quot;</span><span class="fu">,</span><span class="dt">&quot;domain&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="dv">0</span><span class="ot">,</span><span class="dv">1</span><span class="ot">]</span><span class="fu">,</span><span class="dt">&quot;title&quot;</span><span class="fu">:{</span><span class="dt">&quot;text&quot;</span><span class="fu">:</span><span class="st">&quot;value&quot;</span><span class="fu">}}}}</span></span></code></pre></div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Notamos que la eliminacion de valores nulos deja casi invariante la
+propocion entre los valores. Finalmente, procedemos a dividir los datos
+de entrenamiento y testeo:</p>
+</div>
+<div class="cell code" data-execution_count="62">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>train, test <span class="op">=</span> train_test_split(data, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">77</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>train.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="62">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>pH</th>
+      <th>Dureza</th>
+      <th>Sólidos</th>
+      <th>Cloraminas</th>
+      <th>Sulfatos</th>
+      <th>Conductividad</th>
+      <th>Carbono_orgánico</th>
+      <th>Trihalometanos</th>
+      <th>Turbidez</th>
+      <th>Potabilidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>530</th>
+      <td>6.64</td>
+      <td>198.88</td>
+      <td>27867.49</td>
+      <td>7.33</td>
+      <td>318.41</td>
+      <td>573.72</td>
+      <td>13.19</td>
+      <td>81.55</td>
+      <td>4.69</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <th>2475</th>
+      <td>4.99</td>
+      <td>141.62</td>
+      <td>44499.73</td>
+      <td>8.26</td>
+      <td>335.51</td>
+      <td>534.71</td>
+      <td>15.35</td>
+      <td>62.90</td>
+      <td>3.93</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <th>3146</th>
+      <td>8.30</td>
+      <td>183.61</td>
+      <td>20316.43</td>
+      <td>7.11</td>
+      <td>322.10</td>
+      <td>295.65</td>
+      <td>13.50</td>
+      <td>62.23</td>
+      <td>4.24</td>
+      <td>SI</td>
+    </tr>
+    <tr>
+      <th>1183</th>
+      <td>7.06</td>
+      <td>188.39</td>
+      <td>20567.15</td>
+      <td>7.44</td>
+      <td>360.32</td>
+      <td>656.92</td>
+      <td>16.27</td>
+      <td>84.83</td>
+      <td>4.40</td>
+      <td>SI</td>
+    </tr>
+    <tr>
+      <th>407</th>
+      <td>8.20</td>
+      <td>214.52</td>
+      <td>10389.54</td>
+      <td>6.30</td>
+      <td>327.19</td>
+      <td>403.19</td>
+      <td>15.07</td>
+      <td>72.76</td>
+      <td>3.22</td>
+      <td>SI</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Y aislamos la variable objetivo:</p>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>x_train <span class="op">=</span> train.drop([<span class="st">&#39;Potabilidad&#39;</span>],axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>y_train <span class="op">=</span> train[<span class="st">&#39;Potabilidad&#39;</span>]</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>x_test <span class="op">=</span> test.drop([<span class="st">&#39;Potabilidad&#39;</span>],axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>y_test <span class="op">=</span> test[<span class="st">&#39;Potabilidad&#39;</span>]</span></code></pre></div>
+</div>
+<section id="árboles-de-decisión" class="cell markdown">
+<h3>Árboles de decisión</h3>
+</section>
+<div class="cell markdown">
+<p>Empecemos el modelado con los arboles de decision, para este modelos
+es mejor no realizar un preprocesamiento de los datos, debido a que se
+espera que el arbol nos indique los umbrales de decision sobre los
+datos. Para el entrenamiento del modelo necesitamos definir un
+diccionario con los valores que se van a considerar en el GridSearch
+para obtener los mejores hiperparametros:</p>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>param_grid <span class="op">=</span> {<span class="st">&#39;criterion&#39;</span>: [<span class="st">&#39;gini&#39;</span>, <span class="st">&#39;entropy&#39;</span>],</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;max_depth&#39;</span>: [<span class="dv">4</span>, <span class="dv">6</span>, <span class="dv">8</span>, <span class="dv">10</span>, <span class="dv">12</span>],</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;min_samples_split&#39;</span>: [<span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]}</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>decision_tree <span class="op">=</span> DecisionTreeClassifier(class_weight<span class="op">=</span><span class="st">&#39;balanced&#39;</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>grid <span class="op">=</span> GridSearchCV(decision_tree, param_grid, cv<span class="op">=</span>kfold, n_jobs<span class="op">=-</span><span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Con el grid definido procedemos al ajuste con los datos:</p>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>grid.fit(x_train, y_train)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+<style>#sk-container-id-1 {color: black;}#sk-container-id-1 pre{padding: 0;}#sk-container-id-1 div.sk-toggleable {background-color: white;}#sk-container-id-1 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-1 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-1 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-1 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-1 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-1 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-1 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-1 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-1 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-1 div.sk-item {position: relative;z-index: 1;}#sk-container-id-1 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-1 div.sk-item::before, #sk-container-id-1 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-1 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-1 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-1 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-1 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-1 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-1 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-1 div.sk-label-container {text-align: center;}#sk-container-id-1 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-1 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>GridSearchCV(cv=KFold(n_splits=10, random_state=0, shuffle=True),
+             estimator=DecisionTreeClassifier(class_weight=&#x27;balanced&#x27;),
+             n_jobs=-1,
+             param_grid={&#x27;criterion&#x27;: [&#x27;gini&#x27;, &#x27;entropy&#x27;],
+                         &#x27;max_depth&#x27;: [4, 6, 8, 10, 12],
+                         &#x27;min_samples_split&#x27;: [3, 4, 5]})</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item sk-dashed-wrapped"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" ><label for="sk-estimator-id-1" class="sk-toggleable__label sk-toggleable__label-arrow">GridSearchCV</label><div class="sk-toggleable__content"><pre>GridSearchCV(cv=KFold(n_splits=10, random_state=0, shuffle=True),
+             estimator=DecisionTreeClassifier(class_weight=&#x27;balanced&#x27;),
+             n_jobs=-1,
+             param_grid={&#x27;criterion&#x27;: [&#x27;gini&#x27;, &#x27;entropy&#x27;],
+                         &#x27;max_depth&#x27;: [4, 6, 8, 10, 12],
+                         &#x27;min_samples_split&#x27;: [3, 4, 5]})</pre></div></div></div><div class="sk-parallel"><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-2" type="checkbox" ><label for="sk-estimator-id-2" class="sk-toggleable__label sk-toggleable__label-arrow">estimator: DecisionTreeClassifier</label><div class="sk-toggleable__content"><pre>DecisionTreeClassifier(class_weight=&#x27;balanced&#x27;)</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-3" type="checkbox" ><label for="sk-estimator-id-3" class="sk-toggleable__label sk-toggleable__label-arrow">DecisionTreeClassifier</label><div class="sk-toggleable__content"><pre>DecisionTreeClassifier(class_weight=&#x27;balanced&#x27;)</pre></div></div></div></div></div></div></div></div></div></div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Podemos observar los hiperparametros obtenidos para el mejor
+desempeño:</p>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Mejores parámetros: </span><span class="sc">{}</span><span class="st">&quot;</span>.<span class="bu">format</span>(grid.best_params_))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mejores parámetros: {&#39;criterion&#39;: &#39;entropy&#39;, &#39;max_depth&#39;: 8, &#39;min_samples_split&#39;: 4}
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Extraigamos el modelo con dichos parametros:</p>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>mejor_modelo <span class="op">=</span> grid.best_estimator_</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>A partir de este modelo podemos visualizar la importancia de las
+variables en la clasificacion del agua y las desiciones que toma el
+arbol para determinar la categoria:</p>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>importancia <span class="op">=</span> mejor_modelo.feature_importances_</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>importancia_df <span class="op">=</span> pd.DataFrame(data<span class="op">=</span>{<span class="st">&#39;Variable&#39;</span>:x_train.columns, <span class="st">&#39;Importancia&#39;</span>:importancia})</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>importancia_df.sort_values(<span class="st">&#39;Importancia&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Variable</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>pH</td>
+      <td>0.230632</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Sulfatos</td>
+      <td>0.169931</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Sólidos</td>
+      <td>0.165558</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Cloraminas</td>
+      <td>0.118742</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Dureza</td>
+      <td>0.105622</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Carbono_orgánico</td>
+      <td>0.067787</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Conductividad</td>
+      <td>0.065246</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Turbidez</td>
+      <td>0.046702</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Trihalometanos</td>
+      <td>0.029779</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">85</span>,<span class="dv">34</span>))</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>tree <span class="op">=</span> plot_tree(mejor_modelo, feature_names<span class="op">=</span><span class="bu">list</span>(x_train.columns), class_names<span class="op">=</span>[<span class="st">&#39;NO&#39;</span>,<span class="st">&#39;SI&#39;</span>], filled<span class="op">=</span><span class="va">True</span>, fontsize<span class="op">=</span><span class="dv">9</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1ded76ead6a5408e8f09250286e692e5/887d0b412f876b42d1503e39b5d2b7f3a0b157be.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Observamos que el pH es uno de los determinantes de la potabilidad
+del agua, ademas notamos la complejidad a la que llego el modelo para
+clasificar los datos.</p>
+</div>
+<section id="evaluacion-del-modelo" class="cell markdown">
+<h4>Evaluacion del modelo</h4>
+</section>
+<div class="cell markdown">
+<p>Con el modelo entrenado queda evaluar su desempeño bajo datos fuera
+del entrenamiento, generamos la prediccion del modelo sobre los datos de
+testeo:</p>
+</div>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> mejor_modelo.predict(x_test)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>A partir de esto podemos producir la matriz de confusion que nos
+indica como se comportaron las predicciones del modelo:</p>
+</div>
+<div class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>ConfusionMatrixDisplay.from_estimator(mejor_modelo, x_test, y_test)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="33">
+<pre><code>&lt;sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay at 0x202713e3790&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1ded76ead6a5408e8f09250286e692e5/27f81aa4514ae29cdafd38a31957880cbe245c30.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Ademas a partir de esta matriz podemos calcular las diferentes
+metricas:</p>
+</div>
+<div class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(y_test, y_pred))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>              precision    recall  f1-score   support
+
+          NO       0.71      0.48      0.58       262
+          SI       0.40      0.63      0.49       141
+
+    accuracy                           0.54       403
+   macro avg       0.55      0.56      0.53       403
+weighted avg       0.60      0.54      0.55       403
+
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Notamos que el unico valor considerablemente alto es el de la
+precision, y ligeramente el f1, del NO, esto nos indica que el modelo no
+es tan confiable para identificar casos diferentes al agua no potable,
+es decir, este modelo es util para reconocer el agua no potable.</p>
+</div>
+<section id="seleccion-de-variables" class="cell markdown">
+<h3>Seleccion de variables</h3>
+</section>
+<div class="cell markdown">
+<p>Los arboles de decision resultan ser muy utiles debido a que
+describen el comportamiento de los datos y los umbrales a tener en
+cuenta para la clasificacion. Esta ventaja la podemos aprovechar
+entrenando un arbol restringido a una profundidad de 3, de donde
+podremos deducir las variables de mayor relevancia para la
+clasificacion:</p>
+</div>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>decision_tree_reglas <span class="op">=</span> DecisionTreeClassifier(max_depth<span class="op">=</span><span class="dv">3</span>, class_weight<span class="op">=</span><span class="st">&#39;balanced&#39;</span>)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>decision_tree_reglas.fit(x_train, y_train)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="35">
+<style>#sk-container-id-2 {color: black;}#sk-container-id-2 pre{padding: 0;}#sk-container-id-2 div.sk-toggleable {background-color: white;}#sk-container-id-2 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-2 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-2 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-2 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-2 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-2 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-2 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-2 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-2 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-2 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-2 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-2 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-2 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-2 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-2 div.sk-item {position: relative;z-index: 1;}#sk-container-id-2 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-2 div.sk-item::before, #sk-container-id-2 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-2 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-2 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-2 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-2 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-2 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-2 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-2 div.sk-label-container {text-align: center;}#sk-container-id-2 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-2 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-2" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>DecisionTreeClassifier(class_weight=&#x27;balanced&#x27;, max_depth=3)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-4" type="checkbox" checked><label for="sk-estimator-id-4" class="sk-toggleable__label sk-toggleable__label-arrow">DecisionTreeClassifier</label><div class="sk-toggleable__content"><pre>DecisionTreeClassifier(class_weight=&#x27;balanced&#x27;, max_depth=3)</pre></div></div></div></div></div>
+</div>
+</div>
+<div class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>importancia <span class="op">=</span> decision_tree_reglas.feature_importances_</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>importancia_df <span class="op">=</span> pd.DataFrame(data<span class="op">=</span>{<span class="st">&#39;Variable&#39;</span>:x_train.columns, <span class="st">&#39;Importancia&#39;</span>:importancia})</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>importancia_df.sort_values(<span class="st">&#39;Importancia&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="36">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Variable</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>pH</td>
+      <td>0.623044</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Sulfatos</td>
+      <td>0.313444</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Sólidos</td>
+      <td>0.063512</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Dureza</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Cloraminas</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Conductividad</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Carbono_orgánico</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Trihalometanos</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Turbidez</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">25</span>,<span class="dv">10</span>))</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>tree <span class="op">=</span> plot_tree(decision_tree_reglas, feature_names<span class="op">=</span><span class="bu">list</span>(x_train.columns), class_names<span class="op">=</span>[<span class="st">&#39;NO&#39;</span>,<span class="st">&#39;SI&#39;</span>], filled<span class="op">=</span><span class="va">True</span>, fontsize<span class="op">=</span><span class="dv">9</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1ded76ead6a5408e8f09250286e692e5/573b55f6c4b10a0e0f8b34c0d2e1a050fed1766d.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Concluimos entonces que el pH, los sulfatos y los solidos son las
+variables mas relevantes para determinar la potabilidad del agua, ademas
+del arbol observamos que los umbrales para que el agua se clasifique
+como no potable son <span
+class="math inline"><em>s</em><em>u</em><em>l</em><em>f</em><em>a</em><em>t</em><em>o</em><em>s</em> &gt; 363.345</span>
+y <span class="math inline"><em>p</em><em>H</em> &lt; 5.6</span>.
+Ademas, no esta de mas calcular las metricas para este modelo y
+corroborar que es confiable los umbrales identificados:</p>
+</div>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> decision_tree_reglas.predict(x_test)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="41">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>ConfusionMatrixDisplay.from_estimator(decision_tree_reglas, x_test, y_test)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="41">
+<pre><code>&lt;sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay at 0x20270fb5690&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1ded76ead6a5408e8f09250286e692e5/5a4d02afa1282008cdca5d4e0753ed6e23b51a83.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="42">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(y_test, y_pred))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>              precision    recall  f1-score   support
+
+          NO       0.68      0.85      0.76       262
+          SI       0.49      0.26      0.34       141
+
+    accuracy                           0.65       403
+   macro avg       0.59      0.56      0.55       403
+weighted avg       0.62      0.65      0.61       403
+
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Notamos un alto valor de precision, recall y f1 para la clase
+negativa, esto es bueno debido a que nos inidica que el modelo es bueno
+identificando los casos en los que el agua no es potable. Por lo tanto
+el umbral obtenido es confiable.</p>
+</div>
+<section id="k-vecinos-más-cercanos" class="cell markdown">
+<h3>K-vecinos más cercanos</h3>
+</section>
+<div class="cell markdown">
+<p>Ahora procedemos con el modelo de k-vecinos mas cercanos, debido a
+que este modelo calcula la distancia entre los puntos, lo mejor es
+realizar una estandarización para que la escala de las variables no
+tengan influencia sobre la clasificación. Para esto usamos
+<em>StandarScaler</em>:</p>
+</div>
+<div class="cell code" data-execution_count="43">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>columns <span class="op">=</span> x_train.columns</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>x_train <span class="op">=</span> scaler.fit_transform(x_train)</span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>x_train <span class="op">=</span> pd.DataFrame(x_train, columns<span class="op">=</span>columns)</span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>x_train</span></code></pre></div>
+<div class="output execute_result" data-execution_count="43">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>pH</th>
+      <th>Dureza</th>
+      <th>Sólidos</th>
+      <th>Cloraminas</th>
+      <th>Sulfatos</th>
+      <th>Conductividad</th>
+      <th>Carbono_orgánico</th>
+      <th>Trihalometanos</th>
+      <th>Turbidez</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>-0.286308</td>
+      <td>0.079568</td>
+      <td>0.689866</td>
+      <td>0.133461</td>
+      <td>-0.346818</td>
+      <td>1.842134</td>
+      <td>-0.347119</td>
+      <td>0.948041</td>
+      <td>0.911092</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>-1.337777</td>
+      <td>-1.658806</td>
+      <td>2.610412</td>
+      <td>0.713844</td>
+      <td>0.061174</td>
+      <td>1.357273</td>
+      <td>0.309327</td>
+      <td>-0.216662</td>
+      <td>-0.084907</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.771533</td>
+      <td>-0.384019</td>
+      <td>-0.182064</td>
+      <td>-0.003834</td>
+      <td>-0.258778</td>
+      <td>-1.614038</td>
+      <td>-0.252907</td>
+      <td>-0.258504</td>
+      <td>0.321356</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>-0.018662</td>
+      <td>-0.238901</td>
+      <td>-0.153113</td>
+      <td>0.202108</td>
+      <td>0.653122</td>
+      <td>2.876239</td>
+      <td>0.588925</td>
+      <td>1.152879</td>
+      <td>0.531040</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.707807</td>
+      <td>0.554388</td>
+      <td>-1.328334</td>
+      <td>-0.509330</td>
+      <td>-0.137334</td>
+      <td>-0.277408</td>
+      <td>0.224232</td>
+      <td>0.399100</td>
+      <td>-1.015380</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1603</th>
+      <td>-0.624053</td>
+      <td>1.605427</td>
+      <td>2.696983</td>
+      <td>0.158423</td>
+      <td>0.138955</td>
+      <td>-1.373906</td>
+      <td>-0.936706</td>
+      <td>1.392065</td>
+      <td>-1.172643</td>
+    </tr>
+    <tr>
+      <th>1604</th>
+      <td>-0.764249</td>
+      <td>1.305781</td>
+      <td>-0.157787</td>
+      <td>-0.478126</td>
+      <td>0.198365</td>
+      <td>-0.272063</td>
+      <td>1.406444</td>
+      <td>-0.157334</td>
+      <td>0.517934</td>
+    </tr>
+    <tr>
+      <th>1605</th>
+      <td>0.701435</td>
+      <td>1.012510</td>
+      <td>-1.004087</td>
+      <td>-0.690309</td>
+      <td>0.026340</td>
+      <td>2.236759</td>
+      <td>0.160411</td>
+      <td>2.307591</td>
+      <td>-0.399433</td>
+    </tr>
+    <tr>
+      <th>1606</th>
+      <td>1.071042</td>
+      <td>0.580193</td>
+      <td>-0.914958</td>
+      <td>0.270756</td>
+      <td>-0.242076</td>
+      <td>-0.702111</td>
+      <td>1.394287</td>
+      <td>-0.725010</td>
+      <td>-0.281486</td>
+    </tr>
+    <tr>
+      <th>1607</th>
+      <td>-0.490230</td>
+      <td>0.426575</td>
+      <td>-1.179065</td>
+      <td>-0.091204</td>
+      <td>-0.505005</td>
+      <td>-0.615853</td>
+      <td>-0.717890</td>
+      <td>-0.212915</td>
+      <td>0.727618</td>
+    </tr>
+  </tbody>
+</table>
+<p>1608 rows × 9 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Con los datos preparados para el entrenamiento del modelo, podemos
+definir una lista con algunos valores del hiperparametro
+<strong>k</strong> para poder estudiar el comportamiento bajo una curva
+de validacion y asi determinar el <strong>k</strong> que produce un
+mejor desempeño:</p>
+</div>
+<div class="cell code" data-execution_count="44">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>k_values <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>k_values</span></code></pre></div>
+<div class="output execute_result" data-execution_count="44">
+<pre><code>[1, 2, 3, 4, 5]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="45">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>train_scores, val_scores <span class="op">=</span> validation_curve(estimator<span class="op">=</span>KNeighborsClassifier(),</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>                                            X<span class="op">=</span>x_train,</span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>                                            y<span class="op">=</span>y_train,</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>                                            param_name<span class="op">=</span><span class="st">&#39;n_neighbors&#39;</span>,</span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>                                            param_range<span class="op">=</span>k_values,</span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>                                            scoring<span class="op">=</span><span class="st">&#39;accuracy&#39;</span>,</span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>                                            cv<span class="op">=</span><span class="dv">10</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="46">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>train_mean <span class="op">=</span> np.mean(train_scores, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>train_std <span class="op">=</span> np.std(train_scores, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>val_mean <span class="op">=</span> np.mean(val_scores, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>val_std <span class="op">=</span> np.std(val_scores, axis<span class="op">=</span><span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="47">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">7</span>,<span class="dv">7</span>))</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>plt.plot(k_values, train_mean, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, markersize<span class="op">=</span><span class="dv">5</span>, label<span class="op">=</span><span class="st">&#39;Exactitud en entrenamiento&#39;</span>)</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>plt.fill_between(k_values, train_mean<span class="op">+</span>train_std, train_mean<span class="op">-</span>train_std, alpha<span class="op">=</span><span class="fl">0.15</span>, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>)</span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>plt.plot(k_values, val_mean, color<span class="op">=</span><span class="st">&#39;green&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>, marker<span class="op">=</span><span class="st">&#39;s&#39;</span>, markersize<span class="op">=</span><span class="dv">5</span>, label<span class="op">=</span><span class="st">&#39;Exactitud en validación&#39;</span>)</span>
+<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a>plt.fill_between(k_values, val_mean<span class="op">+</span>val_std, val_mean<span class="op">-</span>val_std, alpha<span class="op">=</span><span class="fl">0.15</span>, color<span class="op">=</span><span class="st">&#39;green&#39;</span>)</span>
+<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-9"><a href="#cb44-9" aria-hidden="true" tabindex="-1"></a>plt.grid()</span>
+<span id="cb44-10"><a href="#cb44-10" aria-hidden="true" tabindex="-1"></a>plt.legend(loc<span class="op">=</span><span class="st">&#39;lower right&#39;</span>)</span>
+<span id="cb44-11"><a href="#cb44-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;k&#39;</span>)</span>
+<span id="cb44-12"><a href="#cb44-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Exactitud&#39;</span>)</span>
+<span id="cb44-13"><a href="#cb44-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1ded76ead6a5408e8f09250286e692e5/447d59eab78d5a10577082826b9458b6ca8de961.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Con la curva de validacion notamos que el valor de exactitud mas alto
+se alcanza para <span class="math inline"><em>k</em> = 4</span>:</p>
+</div>
+<div class="cell code" data-execution_count="48">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>mejor_indice <span class="op">=</span> np.argmax(val_mean)</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>mejor_k <span class="op">=</span> k_values[mejor_indice]</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>mejor_k</span></code></pre></div>
+<div class="output execute_result" data-execution_count="48">
+<pre><code>4</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Obtenemos este valor y lo usamos para entrenar el mejor modelo de
+knn:</p>
+</div>
+<div class="cell code" data-execution_count="49">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>knn <span class="op">=</span> KNeighborsClassifier(n_neighbors<span class="op">=</span>mejor_k).fit(x_train, y_train)</span></code></pre></div>
+</div>
+<section id="evaluacion-del-modelo" class="cell markdown">
+<h3>Evaluacion del modelo</h3>
+</section>
+<div class="cell markdown">
+<p>Lo que procede ahora es evaluar el desempeño del modelo bajo datos de
+prueba:</p>
+</div>
+<div class="cell code" data-execution_count="50">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>x_test <span class="op">=</span> scaler.transform(x_test)</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>x_test <span class="op">=</span> pd.DataFrame(x_test, columns<span class="op">=</span>columns)</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>x_test</span></code></pre></div>
+<div class="output execute_result" data-execution_count="50">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>pH</th>
+      <th>Dureza</th>
+      <th>Sólidos</th>
+      <th>Cloraminas</th>
+      <th>Sulfatos</th>
+      <th>Conductividad</th>
+      <th>Carbono_orgánico</th>
+      <th>Trihalometanos</th>
+      <th>Turbidez</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>-0.139740</td>
+      <td>1.670700</td>
+      <td>-0.018973</td>
+      <td>1.050841</td>
+      <td>-1.268500</td>
+      <td>1.416436</td>
+      <td>-0.407902</td>
+      <td>-0.621967</td>
+      <td>0.963513</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1.077414</td>
+      <td>-0.143573</td>
+      <td>-0.014375</td>
+      <td>-1.476635</td>
+      <td>1.295651</td>
+      <td>0.124427</td>
+      <td>-0.745242</td>
+      <td>-0.645698</td>
+      <td>-0.215960</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.517119</td>
+      <td>-0.821193</td>
+      <td>1.324708</td>
+      <td>0.838658</td>
+      <td>-0.405273</td>
+      <td>0.300920</td>
+      <td>-1.195030</td>
+      <td>0.497148</td>
+      <td>-1.094011</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.573984</td>
+      <td>0.117517</td>
+      <td>-0.497687</td>
+      <td>-0.216018</td>
+      <td>-0.867904</td>
+      <td>-0.595718</td>
+      <td>-1.228460</td>
+      <td>0.032515</td>
+      <td>0.989723</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>-1.528953</td>
+      <td>0.140590</td>
+      <td>1.188098</td>
+      <td>0.907305</td>
+      <td>0.758818</td>
+      <td>1.135289</td>
+      <td>-0.587209</td>
+      <td>1.165369</td>
+      <td>-1.657537</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>398</th>
+      <td>-1.981403</td>
+      <td>-1.075908</td>
+      <td>-0.861340</td>
+      <td>0.807454</td>
+      <td>-0.516457</td>
+      <td>-0.138947</td>
+      <td>1.956522</td>
+      <td>0.743203</td>
+      <td>-0.320802</td>
+    </tr>
+    <tr>
+      <th>399</th>
+      <td>-1.082875</td>
+      <td>-0.719793</td>
+      <td>0.716604</td>
+      <td>-0.827604</td>
+      <td>0.946590</td>
+      <td>0.994715</td>
+      <td>0.971852</td>
+      <td>0.056247</td>
+      <td>0.832460</td>
+    </tr>
+    <tr>
+      <th>400</th>
+      <td>-0.420132</td>
+      <td>-0.544316</td>
+      <td>0.473499</td>
+      <td>0.108498</td>
+      <td>-0.077448</td>
+      <td>1.755503</td>
+      <td>-0.717890</td>
+      <td>-0.351556</td>
+      <td>2.667196</td>
+    </tr>
+    <tr>
+      <th>401</th>
+      <td>-0.917189</td>
+      <td>-0.255902</td>
+      <td>0.459052</td>
+      <td>-2.244239</td>
+      <td>0.121300</td>
+      <td>0.382207</td>
+      <td>0.354914</td>
+      <td>0.385986</td>
+      <td>1.133881</td>
+    </tr>
+    <tr>
+      <th>402</th>
+      <td>-1.777482</td>
+      <td>-1.442648</td>
+      <td>0.548135</td>
+      <td>1.325431</td>
+      <td>-0.386186</td>
+      <td>-0.741636</td>
+      <td>-0.550739</td>
+      <td>-0.767477</td>
+      <td>-1.211959</td>
+    </tr>
+  </tbody>
+</table>
+<p>403 rows × 9 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="57">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> knn.predict(x_test)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Generamos la matriz de confusion y el reporte de las metricas:</p>
+</div>
+<div class="cell code" data-execution_count="59">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>ConfusionMatrixDisplay.from_estimator(knn, x_test, y_test)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="59">
+<pre><code>&lt;sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay at 0x2026e587190&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1ded76ead6a5408e8f09250286e692e5/37fdb7133c098cbf4874242eb503bcea0f4a2b9b.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="60">
+<div class="sourceCode" id="cb52"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(y_test, y_pred))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>              precision    recall  f1-score   support
+
+          NO       0.68      0.86      0.76       262
+          SI       0.51      0.26      0.35       141
+
+    accuracy                           0.65       403
+   macro avg       0.60      0.56      0.55       403
+weighted avg       0.62      0.65      0.62       403
+
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Notamos que, al igual que el arbol de decision, el modelo se
+desenvuelve mejor identificando los casos negativos.</p>
+</div>
+<section id="conclusiones" class="cell markdown">
+<h2>Conclusiones</h2>
+</section>
+<div class="cell markdown">
+<p>Al final se obtuvieron los siguientes resultados para los mejores
+modelos:</p>
+</div>
+<div class="cell markdown">
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>NO</th>
+<th></th>
+<th>SI</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>DT</td>
+<td>KNN</td>
+<td>DT</td>
+<td>KNN</td>
+</tr>
+<tr class="even">
+<td>precision</td>
+<td>0.68</td>
+<td>0.68</td>
+<td>0.49</td>
+<td>0.51</td>
+</tr>
+<tr class="odd">
+<td>recall</td>
+<td>0.85</td>
+<td>0.86</td>
+<td>0.26</td>
+<td>0.26</td>
+</tr>
+<tr class="even">
+<td>f1</td>
+<td>0.76</td>
+<td>0.76</td>
+<td>0.34</td>
+<td>0.35</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell markdown">
+<p>Lo primero que se nota es que los desempeños fueron casi que iguales,
+y teniendo en cuenta el sesgo de mayor cantidad de muestras negativas
+podemos concluir inicialmente que si hubo influencia sobre el modelo no
+tener igual cantidad de muestras positivas que negativas, resultando en
+modelos que se desempeñan mejor identificando los casos negativos, los
+cuales se veian mas representados por la muestra. A pesar de esto, estos
+resultados se pueden considerar satisfactorios para el objetivo del
+proyecto debido a que dichos modelos nos permiten identificar las
+condiciones donde se pierde la potabilidad del agua. Ahora, si se desea
+mejor el desempeño general de clasificacion, es necesario considerar
+aumentar las muestras positivas para obtener mejores resultados en su
+clasificacion.</p>
+</div>
+<div class="cell markdown">
+<p>Por otro lado, el objetivo es identificar el agua cuando el agua no
+es potable, y resulta mejor encontrar un caso donde se indica un falso
+negativo debido a que si se decide tratar el agua, esto no genera un
+impacto negativo sobre esta. En cambio, un falso positivo no permitiria
+tratar agua no potable desencadenando un la posible perdidad de un
+ecosistema. Por lo tanto, se busca que el modelo cuente se desenvuelva
+mejor en la metrica de recall negativa, y se espera un buen desempeño en
+la precision pero no con la misma importancia que el recall. A partir de
+los resultados notamos que se obtuvo lo esperado de los modelos, los
+cuales se desempeñaron mejor en la identificacion de casos negativos
+reduciendo significativamente la cantidad de falsos positivos.</p>
+</div>
+<div class="cell markdown">
+<p>Finalmente, a pesar de que ambos modelos presentaron desempeños
+similares, para este contexto resulta beneficioso seleccionar el modelo
+de arboles de decision, esto gracias a su explicabilidad, es decir, este
+modelo permite comprender el proceso de clasificacion de las muestras y
+entender mejor el comportamiento de estas. Por ejemplo, teniendo en
+cuenta lo hallado en la seccion de arboles de decision, el pH de la
+muestra es la variable mas relevante para su potabilidad, mas aun, un
+bajo pH es indicativo de que el agua no es potable, esto concuerda con
+el hecho de que la vida biologica requiere de mas alcalinidad que acidez
+en el agua, sabiendo esto se facilita la identificacion de agua no
+potable. Por indicativos como este es que los arboles de decision
+resultan mejor en este contexto para comprender lo que esta ocurriendo
+con las muestras.</p>
+</div>
+<section id="autor" class="cell markdown">
+<h1>Autor</h1>
+</section>
+<div class="cell markdown">
+<p>Este es un proyecto realizado para el curso "Principios del machine
+learning" ofrecido por la universidad de los Andes para la maestria en
+inteligencia artificial.</p>
+<p>Autor: Juan A. Guzman.</p>
+</div>
+</body>
+</html>
